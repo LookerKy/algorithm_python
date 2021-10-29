@@ -8,4 +8,11 @@ for item in st_list:
       item = chr(item_ascii)
       continue
   if item_ascii + n >= ord('Z'):
+    pass
     
+test = 'test/abc'
+# a = test.split('/',1)[0]
+# b = test.split('/',1)[1]
+a, b = test.split('/',1)
+print(a, b)
+print(type(a), type(b)) 
